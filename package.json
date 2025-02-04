@@ -1,0 +1,14 @@
+{
+  "name": "ffmpeg-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dl:ffmpeg": "sh ./scripts/download-ffmpeg.sh",
+    "dl:sample": "sh ./scripts/download-sample.sh"
+  },
+  "author": "shotor",
+  "license": "MIT",
+  "description": "Simple test for ffmpeg regressions"
+}
